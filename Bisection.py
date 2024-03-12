@@ -9,6 +9,14 @@ import math
 
 
 # TODO: code
+
+
+# TODO: 1.Functionality -> Initial Root Finding Function
+# TODO: 2.Functionality -> Create a new Bisection Method for taking custom Equations
+# TODO: 3.Functionality -> Floting Point Value Fix For Root(Aka-> C)(User Defined)
+# TODO: 4.Functionality -> creating a Beautiful Table OutPut
+
+
 # Defining Function
 def f(x):
     return x**3 - 4 * x - 9
