@@ -21,13 +21,13 @@ To dive into the world of numerical methods with Python, you'll need to have a b
 1. **Clone this repository:**
 
 ```bash
-git clone https://github.com/your-username/numerical-methods-python.git
+git clone https://github.com/siddhu1919/Numerical_Methods_With_Python.git
 ```
 
 2. **Navigate to the repository:**
 
 ```bash
-cd numerical-methods-python
+cd Numerical_Methods_With_Python
 ```
 
 3. **Install the required packages:**
