@@ -16,6 +16,7 @@ import math
 # TODO: 3.Functionality -> Floting Point Value Fix For Root(Aka-> C)(User Defined)
 # TODO: 4.Functionality -> creating a Beautiful Table OutPut
 
+# sfafsfasfa
 
 # Defining Function
 def f(x):
@@ -25,6 +26,8 @@ def f(x):
 # ∴ the root lies in [2, 3]
 # a = 2 b = 3
 
+def f(a):
+    pass
 
 def bisection(a, b):
     Iteration = 1
