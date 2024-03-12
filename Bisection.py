@@ -7,4 +7,33 @@ Let us consider a continuous function “f” which is defined on the closed int
 
 import math
 
-# code
+
+# TODO: code
+# Defining Function
+def f(x):
+    return x**3 - 4 * x - 9
+
+
+# ∴ the root lies in [2, 3]
+# a = 2 b = 3
+
+
+def bisection(a, b):
+    Iteration = 1
+    a, b = a, b
+    for i in range(10):
+        c = (a + b) / 2
+        print(
+            f"Iteration {Iteration} | a = {a} | b = {b} | c = {c} | f(a) = {f(a)} | f(b) = {f(b)} | f(c) = {f(c)}"
+        )
+        Iteration += 1
+        if f(c) < 0:
+            a = c
+        else:
+            b = c
+
+
+if __name__ == "__main__":
+    a = 2
+    b = 3
+    bisection(a, b)
